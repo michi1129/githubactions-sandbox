@@ -5,4 +5,4 @@ def sub(a, b):
     return a - b
 
 def add2(a):
-    return a + 2
+    return a + 3
