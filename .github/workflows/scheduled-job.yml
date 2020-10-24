@@ -3,11 +3,11 @@
 
 name: Scheduled job
 
-# JST 12:10 (Sat)
+# JST 13:00 (Sat)
 
 on:
   schedule:
-    - cron: '10 3 * * 6'
+    - cron: '0 4 * * 6'
 
 jobs:
   build:
