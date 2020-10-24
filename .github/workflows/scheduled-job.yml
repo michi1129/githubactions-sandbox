@@ -3,11 +3,11 @@
 
 name: Scheduled job
 
-# JST 22:45 (Fri)
+# JST 12:10 (Sat)
 
 on:
   schedule:
-    - cron: '45 13 * * 5'
+    - cron: '10 3 * * 6'
 
 jobs:
   build:
@@ -28,6 +28,3 @@ jobs:
     - name: Lint with pycodestyle
       run: |
         pycodestyle .
-    - name: Test with pytest
-      run: |
-        python -m unittest
